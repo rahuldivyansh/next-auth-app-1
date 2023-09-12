@@ -34,7 +34,7 @@ export default function RegisterForm() {
 
       if (res.ok) {
         const form = e.target;
-        console.log("passed from registerForm component");
+        console.log("User registered successfully !!");
         form.reset();
         router.push("/");
       } else {
